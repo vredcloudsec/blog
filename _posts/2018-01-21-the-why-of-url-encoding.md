@@ -2,11 +2,10 @@
 title: "What is URL encoding? Why do we need it and what would the internet look like without it."
 excerpt_separator: "<!--more-->"
 categories:
-  - Blog
+  - basics
 tags:
-  - Post Formats
-  - readability
-  - standard
+  - basics
+  - encoding
 ---
 
 
