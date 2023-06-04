@@ -1,4 +1,12 @@
-**Title: Base64 Encoding: The Internet's Invisible Handshake**
+---
+title: "Base64 Encoding: The Internet's Invisible Handshake"
+excerpt_separator: "<!--more-->"
+categories:
+  - basics
+tags:
+  - basics
+  - encoding
+---
 
 Imagine this: You're about to send a fancy digital invitation to your friend, filled with emojis, cool graphics, and an awesome GIF of a cat doing a backflip. But as it whizzes through the internet, your perfect invite turns into a jumble of nonsense. Not cool, right?
 
