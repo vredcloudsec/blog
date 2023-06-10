@@ -10,7 +10,7 @@ tags:
 
 **Title: Superheroes Unite: The Epic Odyssey of Hybrid Encryption and the Magic Keys**
 
-Hey there, kiddo! Today, we're embarking on an extraordinary journey into the mystical world of Hybrid Encryption. Remember the magical adventures we took in the realms of Symmetric and Asymmetric Encryption? Well, imagine if those two magical systems decided to team up, like our favorite superheroes joining forces. That's the mesmerizing world of Hybrid Encryption!
+Today, we're embarking on an extraordinary journey into the mystical world of Hybrid Encryption. Remember the magical adventures we took in the realms of Symmetric and Asymmetric Encryption? Well, imagine if those two magical systems decided to team up, like our favorite superheroes joining forces. That's the mesmerizing world of Hybrid Encryption!
 
 **Hybrid Encryption: The Superhero Team-Up of the Crypto World**
 
