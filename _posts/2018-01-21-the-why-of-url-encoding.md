@@ -6,6 +6,8 @@ categories:
 tags:
   - basics
   - encoding
+header:
+  teaser: "/assets/hybrid-enc-digi-sign.gif"
 ---
 
 
