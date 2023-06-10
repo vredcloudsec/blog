@@ -8,7 +8,7 @@ tags:
   - encryption
 ---
 
-Hey there, kiddo! Let's get ready for a magical journey into a land called Asymmetric Encryption. It might sound like something out of a Harry Potter book, but don't worry, we'll make it fun and exciting. Grab your favorite stuffed animal, sit back, and let's get started!
+Let's get ready for a magical journey into a land called Asymmetric Encryption. It might sound like something out of a Harry Potter book, but don't worry, we'll make it fun and exciting. Grab your favorite stuffed animal, sit back, and let's get started!
 
 **Asymmetric Encryption: A Tale of Two Magic Keys**
 
