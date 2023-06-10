@@ -8,7 +8,7 @@ tags:
   - encryption
 ---
 
-Hello, kiddo! Today, we're going on an adventure through the wondrous world of symmetric encryption! I know, I know, the word 'encryption' might sound like something from a sci-fi movie, but stick with me. We're going to make it as fun as playing with your favorite toy. 
+Today, we're going on an adventure through the wondrous world of symmetric encryption! I know, I know, the word 'encryption' might sound like something from a sci-fi movie, but stick with me. We're going to make it as fun as playing with your favorite toy. 
 
 **What's Symmetric Encryption?**
 
