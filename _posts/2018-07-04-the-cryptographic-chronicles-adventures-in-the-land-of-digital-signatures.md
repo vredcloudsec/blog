@@ -10,7 +10,7 @@ tags:
 
 **Title: The Cryptographic Chronicles: Adventures in the Land of Digital Signatures**
 
-Hey there, kiddo! Get ready, because today we're going on an epic journey to the land of Digital Signatures! It's a place filled with secret codes, magic keys, and more than a dash of mystery. Let's embark on our adventure, shall we?
+Get ready, because today we're going on an epic journey to the land of Digital Signatures! It's a place filled with secret codes, magic keys, and more than a dash of mystery. Let's embark on our adventure, shall we?
 
 **Digital Signatures: The Secret Mark of Authenticity**
 
