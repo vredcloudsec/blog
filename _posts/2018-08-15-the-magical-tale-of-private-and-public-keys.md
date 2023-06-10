@@ -8,7 +8,7 @@ tags:
   - encryption
 ---
 
-Hey there, kiddo! Ready for another grand adventure in the mystical land of cryptography? Today, we're going on a quest to discover the secrets of the magical twin keys - the Private and Public Keys! Buckle up; it's going to be an epic ride!
+Ready for another grand adventure in the mystical land of cryptography? Today, we're going on a quest to discover the secrets of the magical twin keys - the Private and Public Keys! Buckle up; it's going to be an epic ride!
 
 **The Tale of Two Keys**
 
