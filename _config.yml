@@ -279,16 +279,16 @@ compress_html:
     envs: development
 
 # jekyll-feed config
-feed:
-  path: atom.xml
-  tags:
-    path: "/feeds/"
-    only:
-      - Emacs
-      - Ruby
-      - Clojure
-      - OCaml
-      - Meta
+#feed:
+ # path: atom.xml
+  #tags:
+   # path: "/feeds/"
+    #only:
+     # - Emacs
+      #- Ruby
+      #- Clojure
+      #- OCaml
+      #- Meta
 
 # Defaults
 defaults:
