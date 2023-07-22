@@ -32,7 +32,7 @@ messages on LinkedIn (and social media in general). More details below.
 
 ### Email
 
-Feel free to contact me at `first name` at `iamsecure.dev` about anything.
+Feel free to contact me at `venkat` at `iamsecure.dev` about anything.
 Email is a great place for private constructive conversations. It's also a great
 option to discuss my open-source projects, if you're the type of person who avoids
 using GitHub.
