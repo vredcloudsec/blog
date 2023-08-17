@@ -6,10 +6,6 @@ author_profile: true
 toc: true
 ---
 
-## General Notes
-
-
-
 ### I'm really excited to chat with anyone who's interested in these topics I love:
 
 1. **Content on the Site, Including Feedback on Articles**: If you have come across any content on my site, particularly articles I have authored, your thoughts, impressions, critiques, and feedback are not only welcomed but highly encouraged. Your perspective can provide invaluable insights, whether it be praise for something you found engaging or constructive criticism on areas where I might improve. I am genuinely eager to understand your viewpoint and learn from your unique experience with my work.
