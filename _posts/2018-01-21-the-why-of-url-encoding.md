@@ -7,8 +7,8 @@ tags:
   - basics
   - encoding
 header:
-  overlay_image: /assets/Asymetric-encryption.png
-  og_image: /assets/Asymetric-encryption.png
+  overlay_image: /assets/Asymmetric-encryption.png
+  og_image: /assets/Asymmetric-encryption.png
   caption: "Photo from the series: [**Straying around**](/weekend_stories/2021/2021-03_Stray_around_3/)"
   actions:
     - label: "See More"
