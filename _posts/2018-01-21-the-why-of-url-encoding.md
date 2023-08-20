@@ -1,5 +1,5 @@
 ---
-title: "What is URL encoding? Why do we need it and what would the internet look like without it."
+title: "What is URL encoding?"
 excerpt_separator: "<!--more-->"
 categories:
   - basics
@@ -12,10 +12,10 @@ header:
   #og_image: /assets/Asymmetric-encryption.png
   #caption: "Photo from the series: [**Straying around**](/weekend_stories/2021/2021-03_Stray_around_3/)"
   actions:
-    - label: "See More"
+    - label: "Read More"
       url: /weekend_stories/2021/2021-03_Stray_around_3/
-excerpt: "This post has an overlay header image"
-tagline: "This is a custom tagline content which overrides the *default* page excerpt."
+excerpt: "URL Encoding in the browser"
+tagline: "Why do we need it and what would the internet look like without it."
 ---
 
 
