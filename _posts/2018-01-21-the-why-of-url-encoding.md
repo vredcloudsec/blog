@@ -7,8 +7,8 @@ tags:
   - basics
   - encoding
 header:
-  overlay_image: /assets/hybrid-enc-digi-sign.gif
-  og_image: /assets/hybrid-enc-digi-sign.gif
+  overlay_image: /assets/Asymetric-encryption.png
+  og_image: /assets/Asymetric-encryption.png
   caption: "Photo from the series: [**Straying around**](/weekend_stories/2021/2021-03_Stray_around_3/)"
   actions:
     - label: "See More"
