@@ -156,7 +156,7 @@ img {
             <small>Paris</small>
           </div>
           
-          <small>{% if post.excerpt %}<p class="card-text" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}</small>
+          <small>{% if post.excerpt %}{{ post.excerpt | markdownify | strip_html | truncate: 160 }}{% endif %}</small>
           
          
             <div class="card__item">
