@@ -37,7 +37,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border: 1px solid blue;
+/*   border: 1px solid blue; */
 }
   </style>
 
@@ -93,7 +93,7 @@ img {
   </div>
   <div class="card-body">
     <h4 class="card-title">Card title</h4>
-    <p class="card-text">Some amazing content lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    {% if post.excerpt %}<p class="card-text" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
   </div>
 </div>
     
@@ -108,6 +108,6 @@ img {
       </h2>
       {% include page__meta.html type=include.type %}
     {% endif %}
-    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+   
   </article>
 </div>
