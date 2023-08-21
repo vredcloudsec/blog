@@ -87,15 +87,17 @@ img {
       </div>
     </div> -->
      <!-- Show as a card test2 -->
-  <div class="card">
-  <div class="card-img">
-    <img src="{{ teaser | relative_url }}" alt="Card image">
-  </div>
-  <div class="card-body">
-    <h4 class="card-title">Card title</h4>
-    {% if post.excerpt %}<p class="card-text" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
-  </div>
-</div>
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+        <div class="card">
+        <div class="card-img">
+          <img src="{{ teaser | relative_url }}" alt="Card image">
+        </div>
+        <div class="card-body">
+          <h4 class="card-title">Card title</h4>
+          {% if post.excerpt %}<p class="card-text" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+        </div>
+      </div>
+    </h2>
     
     <!-- Original -->
     {% else %}
