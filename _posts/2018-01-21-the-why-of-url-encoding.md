@@ -9,7 +9,7 @@ tags:
 header:
   overlay_image: /assets/images/url-encode.png
   overlay_filter: 0.5
-  teaser: /assets/images/url-encode.png
+  teaser: /assets/images/url-encode_reduced.png
   #og_image: /assets/Asymmetric-encryption.png
   #caption: "Photo from the series: [**Straying around**](/weekend_stories/2021/2021-03_Stray_around_3/)"
   actions:
