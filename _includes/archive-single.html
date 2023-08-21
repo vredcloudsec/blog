@@ -16,7 +16,7 @@ img {
 }
   </style> -->
 
-  <style>
+<!--   <style>
 .card {
   background: #F1F1F2;
   border-radius: 10px;
@@ -41,7 +41,45 @@ img {
   justify-content: space-between;
 /*   border: 1px solid blue; */
 }
-  </style>
+  </style> -->
+
+<style>
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: 0 auto;
+  }
+  .card-1 {
+    display: flex;
+    background-color: rgb(238,238,238);
+    border-radius: 5px;
+  }
+  .card-image-1 {
+    width: 30%;
+    /* border: 2px solid blue; */
+
+  }
+  .card-image-1 img {
+    width: 100%;
+    /* height: 10px; */
+    min-height: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    object-fit: cover;
+  }
+  .card-text-1 {
+    width: 70%;
+    /* border: 2px solid green; */
+    padding: 10px;
+  }
+  .card__footer {
+    padding: 5px;
+    overflow: hidden;
+    border-top: 1px solid #dedede;
+  }
+</style>
 
 {% if post.header.teaser %}
   {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
