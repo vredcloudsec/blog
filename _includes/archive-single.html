@@ -89,7 +89,7 @@ img {
       </div>
     </div> -->
      <!-- Show as a card test2 -->
-    <h2 class="archive__item-title no_toc" itemprop="headline">
+<!--     <h2 class="archive__item-title no_toc" itemprop="headline">
         <div class="card">
         <div class="card-img">
           <img src="{{ teaser | relative_url }}" alt="Card image">
@@ -103,6 +103,37 @@ img {
           {% if post.excerpt %}<p class="card-text" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
         </div>
       </div>
+    </h2> -->
+    <!-- Show as a card test3 -->
+        <h2 class="archive__item-title no_toc" itemprop="headline">
+<div class="card-container">
+      <div class="card-1">
+        <!-- card-1 -->
+        <div class="card-image-1">
+          <img src="{{ teaser | relative_url }}" alt="Card image"/>
+        </div>
+        <div class="card-text-1">
+          <h2>{{ title }}</h2>
+          <div class="card__sub">
+            <small>Paris</small>
+          </div>
+          <p>
+          <small>{% if post.excerpt %}<p class="card-text" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}</small>
+          </p>
+          <p>
+            <div class="card__item">
+                <small>Reading Time: 2min</small>
+              </div>
+          </p>
+
+          <div class="card__footer">
+            <a class="pull" href="{{ post.link }}"><small>Read more</small></a>
+            <a class="push" href="#"><small>Share</small></a>
+          </div>
+        </div>
+      </div>
+      <!-- end of card-1 -->
+    </div>
     </h2>
     
     <!-- Original -->
