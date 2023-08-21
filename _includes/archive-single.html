@@ -93,7 +93,11 @@ img {
           <img src="{{ teaser | relative_url }}" alt="Card image">
         </div>
         <div class="card-body">
-          <h4 class="card-title">Card title</h4>
+          <h4 class="card-title">{% if post.link %}
+          <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+        {% else %}
+          <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
+        {% endif %}</h4>
           {% if post.excerpt %}<p class="card-text" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
         </div>
       </div>
