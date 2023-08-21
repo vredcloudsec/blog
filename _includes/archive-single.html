@@ -63,7 +63,7 @@ img {
   }
   .card-image-1 img {
     width: 100%;
-    height: 5rem;
+    height: 1rem;
     min-height: 100%;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -165,11 +165,11 @@ img {
           </p>
 
           <div class="card__footer">
-            <a class="pull" href="{{ post.link }}"><small>Read more</small></a>
+<!--             <a class="pull" href="{{ post.link }}"><small>Read more</small></a> -->
             {% if post.link %}
           <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
         {% else %}
-          <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
+          <a class="pull" href="{{ post.url | relative_url }}" rel="permalink"><small>Read more</small></a>
         {% endif %}
             <a class="push" href="#"><small>Share</small></a>
           </div>
