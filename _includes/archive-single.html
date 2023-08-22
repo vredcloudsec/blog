@@ -79,6 +79,15 @@ img {
     overflow: hidden;
     border-top: 1px solid #dedede;
   }
+  #cardh1id {
+    line-height: 1.25;
+    font-family: "Lora", serif;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 2.25rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
 </style>
 
 {% if post.header.teaser %}
@@ -151,10 +160,7 @@ img {
           <img src="{{ teaser | relative_url }}" alt="Card image"/>
         </div>
         <div class="card-text-1">
-         <h1
-          class="ff-serif font-weight-normal text-black card-heading mt-0 mb-1"
-          style="line-height: 1.25"
-        > {{ title }}</h1>
+         <h1 id="cardh1id"> {{ title }}</h1>
           <div class="card__sub">
             <small>{% if post.tags %}{{ post.tags | array_to_sentence_string }}{% endif %}</small>
           </div>
