@@ -83,6 +83,9 @@ img {
   .card__tag {
     margin: 0 0 0.3em 0;
   }
+  .card__read {
+    margin: 0.3em 0 0 0;
+  }
   #cardh1id {
     line-height: 1.25;
     #font-family: "Lora", serif;
@@ -103,8 +106,21 @@ img {
     
   }
   #excerpt-display-id {
-     margin: 0.5 0 0 0;
+     #margin: 0.5 0 0 0;
     
+  }
+  #readcardid {
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #2196fe;
+    transition: all 0.25s ease-in;
   }
 </style>
 
@@ -186,8 +202,8 @@ img {
             <small id = "excerpt-display-id">{% if post.excerpt %}{{ post.excerpt | markdownify | strip_html | truncate: 160 }}{% endif %}</small>
           </div>
           
-          <div>
-            <a  href="{{ post.url | relative_url }}" rel="permalink"><small>Read more</small></a>
+          <div class="card__read">
+            <a  href="{{ post.url | relative_url }}" rel="permalink" id="readcardid"><small>Read more</small></a>
           </div>
           
           
