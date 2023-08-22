@@ -81,7 +81,7 @@ img {
     border-top: 1px solid #dedede;
   }
   .card__tag {
-    margin: 0 0 0.5em 0;
+    margin: 0 0 0.3em 0;
   }
   #cardh1id {
     line-height: 1.25;
@@ -91,7 +91,7 @@ img {
     #font-size: 2.25rem;
     #margin-top: 0;
     #margin-bottom: 1rem;
-    margin: 0 0 0.3 0;
+   
   }
   #tag-display-id {
     font-size: 0.75rem;
@@ -185,7 +185,10 @@ img {
           <div>
             <small id = "excerpt-display-id">{% if post.excerpt %}{{ post.excerpt | markdownify | strip_html | truncate: 160 }}{% endif %}</small>
           </div>
-          <div><a  href="{{ post.url | relative_url }}" rel="permalink"><small>Read more</small></a></div>
+          
+          <div>
+            <a  href="{{ post.url | relative_url }}" rel="permalink"><small>Read more</small></a>
+          </div>
           
           
 <!--           <div class="card__footer">
