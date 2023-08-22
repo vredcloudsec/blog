@@ -6,6 +6,8 @@ categories:
 tags:
   - basics
   - hashing
+teaser: /assets/images/url-encode_reduced.png
+excerpt: "URL encoding replaces special characters in URLs, ensuring proper navigation, web security, and making the internet accessible for all."
 ---
 
 Ever been overwhelmed by a food menu with too many choices? Yeah, that’s pretty much how the world of cryptographic hashing is. But no worries, my friend, I’m here to help you digest it all. By the end of our chat, you’ll be able to dish out hashing info like a pro. So grab a snack and let’s dive in!
