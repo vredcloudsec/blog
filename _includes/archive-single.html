@@ -88,7 +88,7 @@ img {
     #font-size: 2.25rem;
     #margin-top: 0;
     #margin-bottom: 1rem;
-    margin: 0 0 0.5 0
+    margin: 0 0 0.3 0
   }
   #tag-display-id {
     font-size: 0.75rem;
@@ -98,6 +98,10 @@ img {
     color: rgba(0, 0, 0, 0.3);
     letter-spacing: 2px;
     margin: 0 0 0.5 0
+  }
+  #excerpt-display-id {
+     margin: 0 0 0.5 0
+    
   }
 </style>
 
@@ -175,8 +179,9 @@ img {
           <div id = "tag-display-id" class="card__sub">
             <small>{% if post.tags %}{{ post.tags | array_to_sentence_string }}{% endif %}</small>
           </div>
-          
-          <small>{% if post.excerpt %}{{ post.excerpt | markdownify | strip_html | truncate: 160 }}{% endif %}</small>
+          <div id = "excerpt-display-id">
+            <small>{% if post.excerpt %}{{ post.excerpt | markdownify | strip_html | truncate: 160 }}{% endif %}</small>
+          </div>
           <div><a  href="{{ post.url | relative_url }}" rel="permalink"><small>Read more</small></a></div>
           
           
