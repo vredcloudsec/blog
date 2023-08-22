@@ -6,8 +6,17 @@ categories:
 tags:
   - basics
   - encoding
-teaser: /assets/images/url-encode_reduced.png
+header:
+  overlay_image: /assets/images/url-encode.png
+  overlay_filter: 0.5
+  teaser: /assets/images/url-encode_reduced.png
+  #og_image: /assets/Asymmetric-encryption.png
+  #caption: "Photo from the series: [**Straying around**](/weekend_stories/2021/2021-03_Stray_around_3/)"
+  actions:
+    - label: "Read More"
+      url: /weekend_stories/2021/2021-03_Stray_around_3/
 excerpt: "URL encoding replaces special characters in URLs, ensuring proper navigation, web security, and making the internet accessible for all."
+tagline: "Why do we need it and what would the internet look like without it."
 ---
 
 Imagine this: You're about to send a fancy digital invitation to your friend, filled with emojis, cool graphics, and an awesome GIF of a cat doing a backflip. But as it whizzes through the internet, your perfect invite turns into a jumble of nonsense. Not cool, right?
