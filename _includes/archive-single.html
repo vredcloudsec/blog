@@ -180,7 +180,7 @@ img {
         <div class="card-text-1">
          <h1 id="cardh1id"> {{ title }}</h1>
           <div class="card__tag">
-            <small id = "tag-display-id">{% if post.tags %}{{ post.tags | array_to_sentence_string }}{% endif %}</small>
+            <small id = "tag-display-id">{% if post.categories %}{{ post.categories | array_to_sentence_string }}{% endif %}</small>
           </div>
           <div>
             <small id = "excerpt-display-id">{% if post.excerpt %}{{ post.excerpt | markdownify | strip_html | truncate: 160 }}{% endif %}</small>
