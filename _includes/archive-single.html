@@ -73,7 +73,7 @@ img {
   .card-text-1 {
     width: 70%;
     /* border: 2px solid green; */
-    padding: 5px;
+    padding: 3px;
   }
   .card__footer {
     padding: 5px;
@@ -194,7 +194,7 @@ img {
           <img src="{{ teaser | relative_url }}" alt="Card image"/>
         </div>
         <div class="card-text-1">
-         <h1 id="cardh1id"> {{ title }}</h1>
+         <h2 id="cardh1id"> {{ title }}</h2>
           <div class="card__tag">
             <small id = "tag-display-id">{% if post.categories %}{{ post.categories | array_to_sentence_string }}{% endif %}</small>
           </div>
