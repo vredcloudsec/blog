@@ -6,6 +6,7 @@ categories:
 tags:
   - basics
   - encoding
+teaser: /assets/images/url-encode_reduced.png
 ---
 
 Imagine this: You're about to send a fancy digital invitation to your friend, filled with emojis, cool graphics, and an awesome GIF of a cat doing a backflip. But as it whizzes through the internet, your perfect invite turns into a jumble of nonsense. Not cool, right?
