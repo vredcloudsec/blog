@@ -153,7 +153,7 @@ img {
         <div class="card-text-1">
          <small> {{ title }}</small>
           <div class="card__sub">
-            <small>Paris</small>
+            <small>{% if post.tags %}{{ post.tags | markdownify | strip_html | truncate: 160 }}{% endif %}</small>
           </div>
           
           <small>{% if post.excerpt %}{{ post.excerpt | markdownify | strip_html | truncate: 160 }}{% endif %}</small>
