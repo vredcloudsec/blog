@@ -88,7 +88,7 @@ img {
     #font-size: 2.25rem;
     #margin-top: 0;
     #margin-bottom: 1rem;
-    margin: 0 0 0.3 0
+    margin: 0 0 0.3 0;
   }
   #tag-display-id {
     font-size: 0.75rem;
@@ -176,11 +176,11 @@ img {
         </div>
         <div class="card-text-1">
          <h1 id="cardh1id"> {{ title }}</h1>
-          <div id = "tag-display-id" class="card__sub">
-            <small>{% if post.tags %}{{ post.tags | array_to_sentence_string }}{% endif %}</small>
+          <div class="card__sub">
+            <small id = "tag-display-id">{% if post.tags %}{{ post.tags | array_to_sentence_string }}{% endif %}</small>
           </div>
-          <div id = "excerpt-display-id">
-            <small>{% if post.excerpt %}{{ post.excerpt | markdownify | strip_html | truncate: 160 }}{% endif %}</small>
+          <div>
+            <small id = "excerpt-display-id">{% if post.excerpt %}{{ post.excerpt | markdownify | strip_html | truncate: 160 }}{% endif %}</small>
           </div>
           <div><a  href="{{ post.url | relative_url }}" rel="permalink"><small>Read more</small></a></div>
           
