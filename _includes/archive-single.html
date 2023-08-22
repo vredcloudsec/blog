@@ -80,6 +80,9 @@ img {
     overflow: hidden;
     border-top: 1px solid #dedede;
   }
+  .card__tag {
+    margin: 0 0 0.5em 0;
+  }
   #cardh1id {
     line-height: 1.25;
     #font-family: "Lora", serif;
@@ -97,7 +100,7 @@ img {
     text-transform: uppercase;
     color: rgba(0, 0, 0, 0.3);
     letter-spacing: 2px;
-    margin: 0 0 0.5 0;
+    
   }
   #excerpt-display-id {
      margin: 0.5 0 0 0;
@@ -176,7 +179,7 @@ img {
         </div>
         <div class="card-text-1">
          <h1 id="cardh1id"> {{ title }}</h1>
-          <div class="card__sub">
+          <div class="card__tag">
             <small id = "tag-display-id">{% if post.tags %}{{ post.tags | array_to_sentence_string }}{% endif %}</small>
           </div>
           <div>
