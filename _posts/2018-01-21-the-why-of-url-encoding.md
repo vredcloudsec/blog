@@ -12,9 +12,9 @@ header:
   teaser: /assets/images/url-encode_reduced.png
   #og_image: /assets/Asymmetric-encryption.png
   #caption: "Photo from the series: [**Straying around**](/weekend_stories/2021/2021-03_Stray_around_3/)"
-  actions:
-    - label: "Read More"
-      url: /weekend_stories/2021/2021-03_Stray_around_3/
+  #actions:
+  #  - label: "Read More"
+  #    url: /weekend_stories/2021/2021-03_Stray_around_3/
 excerpt: "URL encoding replaces special characters in URLs, ensuring proper navigation, web security, and making the internet accessible for all."
 tagline: "Why do we need it and what would the internet look like without it."
 ---
