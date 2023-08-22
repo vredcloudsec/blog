@@ -153,7 +153,11 @@ img {
         <div class="card-text-1">
          <small> {{ title }}</small>
           <div class="card__sub">
-            <small>{% if post.categories %}{{ post.categories | jsonify }}{% endif %}</small>
+            {% assign tags_sorted = page.tags | sort_natural %}
+            {% for tag_word in tags_sorted %}
+              <a href="{{ tag_word | slugify | prepend: path_type | prepend: site.tag_archive.path | relative_url }}" class="page__taxonomy-item p-category" rel="tag">{{ tag_word }}</a>{% unless forloop.last %}<span class="sep">, </span>{% endunless %}
+            {% endfor %}
+<!--             <small>{% if post.categories %}{{ post.categories | jsonify }}{% endif %}</small> -->
           </div>
           
           <small>{% if post.excerpt %}{{ post.excerpt | markdownify | strip_html | truncate: 160 }}{% endif %}</small>
