@@ -15,7 +15,7 @@ header:
   actions:
     - label: "Read More"
       url: /weekend_stories/2021/2021-03_Stray_around_3/
-excerpt: "URL encoding replaces special and non-ASCII characters in URLs with specific combinations like "%20" to ensure proper navigation and security on the internet. It prevents confusion, errors, and malicious activities, making the web accessible and usable for everyone."
+excerpt: "URL encoding replaces special and non-ASCII characters in URLs with specific combinations to ensure proper navigation and security on the internet. It prevents confusion, errors, and malicious activities, making the web accessible and usable for everyone."
 tagline: "Why do we need it and what would the internet look like without it."
 ---
 
