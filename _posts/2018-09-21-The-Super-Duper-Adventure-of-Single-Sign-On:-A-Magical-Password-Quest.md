@@ -1,3 +1,13 @@
+---
+title: "The Super Duper Adventure of Single Sign-On: A Magical Password Quest"
+excerpt_separator: "<!--more-->"
+categories:
+  - basics
+tags:
+  - basics
+  - SSO
+---
+
 **The Super Duper Adventure of Single Sign-On: A Magical Password Quest**
 
 Grab your explorer's hat and your magic wand, because today we're setting sail on an epic quest into the world of Single Sign-On (SSO). It's like having one magic key that opens all your treasure chests. Excited? Me too! Let's dive in.
