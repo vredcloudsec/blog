@@ -1,3 +1,13 @@
+---
+title: "The Essential Journey into Identity and Access Management (IAM): Why Custom Solutions Just Don't Cut It"
+excerpt_separator: "<!--more-->"
+categories:
+  - IAM
+tags:
+  - basics
+  - IAM
+---
+
 Grab a cup of coffee or your favorite beverage, and let's have a chat about this IAM thing, Identity and Access Management. I promise it'll be as fun as possible for something so critical to our digital lives. Let's dive in!
 
 ## **IAM: What's the Big Deal Anyway?**
