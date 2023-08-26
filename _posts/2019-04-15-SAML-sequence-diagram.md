@@ -28,4 +28,4 @@ The SAML sequence flow
    Service Provider -> [Grant Access] -> User
 
 
-![SAML Sequence Flow](/assets/images/url-encode_reduced.png)
+![SAML Sequence Flow](/assets/images/saml-sequence-flow.png)
