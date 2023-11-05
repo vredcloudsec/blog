@@ -8,5 +8,5 @@ toc: true
 
 ## About Me
 
-![Venkat](/assets/images/IMG_0012.JPG)
+![Venkat](/assets/images/v-pic-latest.png)
 
