@@ -103,7 +103,7 @@ analytics:
 # Site Author
 author:
   name             : "Venkat Reddy"
-  avatar           : "/assets/images/IMG_0012.JPG" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/v-pic-latest.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Trying to keep things fun and secure. Love all things tech. Just another programmer with too many opinions. I'm not the best, but I'm pretty good."
   location         : "NYC"
   email            : venkat@iamsecure.dev
