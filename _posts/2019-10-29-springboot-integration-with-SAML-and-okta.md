@@ -1,4 +1,16 @@
-### Integrating Spring Boot with Okta via SAML: A Comprehensive Guide
+---
+title: "Integrating Spring Boot with Okta via SAML"
+excerpt_separator: "<!--more-->"
+categories:
+  - SAML
+tags:
+  - SAML
+  - Spring
+  - Okta
+  - Java
+---
+
+### Integrating Spring Boot with Okta via SAML
 
 ---
 
