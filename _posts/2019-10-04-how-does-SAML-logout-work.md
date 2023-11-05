@@ -22,7 +22,6 @@ When a logout is initiated, a `LogoutRequest` message is sent to the other party
 
 **Python Code Example for crafting a LogoutRequest**:
 
-```markdown
 ```python
 from saml2 import BINDING_HTTP_REDIRECT
 from saml2.client import Saml2Client
@@ -45,7 +44,6 @@ logout_request = client.create_logout_request(
 # Send the LogoutRequest to Okta
 response = client.send_logout_request(logout_request, binding=BINDING_HTTP_REDIRECT)
 ```
-```
 
 ---
 
@@ -55,7 +53,6 @@ After processing the `LogoutRequest`, the IdP (in this case, Okta) sends back a 
 
 **Python Code Example for processing a LogoutResponse**:
 
-```markdown
 ```python
 # Process the LogoutResponse from Okta
 logout_response = client.parse_logout_request_response(response.content, binding=BINDING_HTTP_REDIRECT)
@@ -66,7 +63,6 @@ if logout_response.status == "success":
 else:
     print(f"Logout error: {logout_response.status_message}")
 ```
-```
 
 ---
 
@@ -76,7 +72,6 @@ When using Okta as an IdP, the SP can initiate a logout by sending a `LogoutRequ
 
 **Python Code Example**:
 
-```markdown
 ```python
 # Direct the user to Okta's SLS URL for logout
 redirect_url = client.apply_binding(
@@ -88,7 +83,6 @@ redirect_url = client.apply_binding(
 
 print(f"Redirect the user to: {redirect_url}")
 ```
-```
 
 ---
 
@@ -98,7 +92,6 @@ For this, the SP needs to listen for `LogoutRequest` messages from Okta and act 
 
 **Python Code Example**:
 
-```markdown
 ```python
 from flask import Flask, request
 
@@ -112,7 +105,6 @@ def handle_logout():
     # ... your session termination logic here ...
     
     return "Logout successful"
-```
 ```
 
 ---
