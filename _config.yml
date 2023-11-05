@@ -19,7 +19,7 @@ title                    : "(IAM)secure"
 title_separator          : "-"
 subtitle                 : "IAM and Cloud Security ramblings of a weird mind." # site tagline that appears below site title in masthead
 name                     : "Venkat Reddy"
-description              : "Venkat's Blog on IAM and Cloud Security"
+description              : "Venkat's Blog on IAM and Identity Governaance and Cloud Security"
 url                      : "https://iamsecure.dev" # the base hostname & protocol for your site e.g. "https://iamsecure.dev"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "vredcloudsec/blog" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -84,7 +84,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : "/assets/images/IMG_0012.JPG" # Open Graph/Twitter default site image
+og_image                 : "/assets/images/v-pic-latest.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -141,7 +141,7 @@ footer:
       url: "https://github.com/vredcloudsec"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/vredcloudsec/"
+      url: "https://www.linkedin.com/in/gudvreds/"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
