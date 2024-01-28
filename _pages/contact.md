@@ -14,7 +14,7 @@ toc: true
 
 3. **Discussion Regarding My Open Source Software (OSS) Projects**: If you have interest, questions, or opinions about any of my open-source endeavors, your engagement is most welcome. Whether you wish to learn more, provide your own insights, or even collaborate, I am open to fostering a conversation that may lead to innovation and mutual growth.
 
-4. **Sharing Insights on New IAM/Cloud Security Technologies**: The ever-evolving field of Identity and Access Management (IAM) and Cloud Security holds a special interest for me. Should you have knowledge, experience, or curiosity about the latest advancements, trends, or best practices within these areas, I would be thrilled to discuss, learn, and possibly collaborate on these subjects.
+4. **Sharing Insights on New IAM and Governance/Cloud Security Technologies**: The ever-evolving field of Identity and Access Management (IAM) and Cloud Security holds a special interest for me. Should you have knowledge, experience, or curiosity about the latest advancements, trends, or best practices within these areas, I would be thrilled to discuss, learn, and possibly collaborate on these subjects.
 
 5. **Career Development Conversations**: If you're seeking guidance, opinions, or merely a thoughtful conversation about career development within the technology field, I am here to listen, share my experiences, and provide support that may assist you in your professional journey.
 
@@ -59,7 +59,7 @@ using GitHub.
 
 The best place to collaborate on any of my OSS projects is GitHub. I welcome all
 contributions, no matter how small they are. I also try to help all contributors
-with feedback and guidance.
+with feedback and guidance. ** I am in the process of consolidating my code into one github repo, please bare with me **
 
 
 
