@@ -20,7 +20,7 @@ title_separator          : "-"
 subtitle                 : "IAM and Cloud Security ramblings of a weird mind." # site tagline that appears below site title in masthead
 name                     : "Venkat Reddy"
 description              : "Venkat's Blog on IAM and Identity Governaance and Cloud Security"
-url                      : "https://iamsecure.dev" # the base hostname & protocol for your site e.g. "https://iamsecure.dev"
+url                      : "https://blog.iamsecure.dev" # the base hostname & protocol for your site e.g. "https://iamsecure.dev"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "vredcloudsec/blog" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
