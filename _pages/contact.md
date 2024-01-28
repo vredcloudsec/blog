@@ -59,7 +59,9 @@ using GitHub.
 
 The best place to collaborate on any of my OSS projects is GitHub. I welcome all
 contributions, no matter how small they are. I also try to help all contributors
-with feedback and guidance. ** I am in the process of consolidating my code into one github repo, please bare with me **
+with feedback and guidance. 
+
+**I am in the process of consolidating my code into one github repo, so please bare with me**
 
 
 
