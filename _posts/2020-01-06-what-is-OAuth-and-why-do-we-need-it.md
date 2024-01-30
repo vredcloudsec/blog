@@ -2,7 +2,7 @@
 title: "What is OAuth and why do we need it?"
 excerpt_separator: "<!--more-->"
 categories:
-  - OAuth
+  - OAuth, SailPoint, Okta
 tags:
   - OAuth
 ---
