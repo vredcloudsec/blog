@@ -2,7 +2,7 @@
 title: "Opaque Tokens vs. Structured Tokens"
 excerpt_separator: "<!--more-->"
 categories:
-  - OAuth
+  - OAuth, SailPoint, Okta
 tags:
   - OAuth
 ---
