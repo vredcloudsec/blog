@@ -2,7 +2,7 @@
 title: "Navigating OAuth: The Multifaceted Challenges Developers Encounter"
 excerpt_separator: "<!--more-->"
 categories:
-  - OAuth
+  - OAuth, SailPoint, Okta
 tags:
   - OAuth
 ---
